@@ -1,0 +1,16 @@
+Select
+De gebruiker kan dingen in de database selecteren zoals de tabellen.
+Een hacker kan de gegevens overnemen uit de database.
+
+Delete
+De gebruiker kan dingen in de database verwijderen zoals kolommen met data.
+Een hacker kan de gegeven onwillig van de eigenaar verwijderen.
+
+Insert
+De gebruiker kan dingen toevoegen aan de database zoals gegevens in de kolommen.
+
+Update
+De gebruiker kan gegevens opslaan.
+
+Execute
+De gebruiker kan de opdrachten uitvoeren.

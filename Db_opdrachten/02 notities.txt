@@ -1,0 +1,11 @@
+02 notities
+
+adres:
+straat -> Varchar
+nummer -> int
+postcode -> Varchar
+stad -> Varchar
+
+adresID
+is een primary key, de kolom mag niet leeg zijn, 
+er mogen nummers in met veel data en de data moet unique zijn.
