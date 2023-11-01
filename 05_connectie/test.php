@@ -1,7 +1,11 @@
 <?php
 
-include 'dbdata.php';
-$mysqli = mysqli_connect($DB_HOST, $DB_USER, $DB_PASSWORD, $DB_NAME);
-$result = mysqli_query($mysqli, "SELECT * FROM test");
-$row = mysqli_fetch_assoc($result);
-print_r($row["idtest"]);
+include_once 'dbdata.php';
+$conn = new mysqli($databaseServer, $user, $pass, $schema);
+if($conn->connect_error)
+{
+    die("error try again\r\n");
+}
+
+echo "connected to database\r\n";
+$conn->close();
